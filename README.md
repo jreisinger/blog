@@ -10,7 +10,7 @@ Contents
 * files - files referred to from blog posts
 * lib - code used by tools in bin
 * **posts** - the *actual* blog posts
-* **terms** - a dictionary of terms
+* [terms](https://github.com/jreisinger/notes/blob/master/content/posts/TERMS.md) - a dictionary of terms
 
 Run `./bin/wild-posts` to make sure all posts are displayed in `README.md` and
 have symlinks within subdirectories. Use `./bin/findp` to search through blog

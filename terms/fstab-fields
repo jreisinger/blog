@@ -1,5 +1,0 @@
-<...> 0 1
-
-backup information for use by the dump command - should be always 0
-
-the filesystem (FS) integrity test order - 1 for the root FS, 2 for any other FS on a hard disk, 0 to disable the bootup check (ex. CD-ROM, swap, proc)

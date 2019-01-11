@@ -1,5 +1,0 @@
-Instructions (or commands, or statements) for a computer to execute. Cooking 
-recipe or direction instructions are kinds of programs.
-
-Executable file residing on disk in a directory. It is read into memory and is
-executed by the kernel as a result of one of the seven `exec` functions.

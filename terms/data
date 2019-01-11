@@ -1,9 +1,0 @@
-Qualitative or quantitative facts about things. Information and then knowledge
-are derived from data.
-
-Binary data (in computer science) - data represented in binary form rather than
-interpreted on higher level or converted to some other form. While most binary
-data has symbolic meaning not all binary data is numeric (ex. computer instruc-
-tions within processor registers). Computers rarely modify individual bits for
-performance reasons. Instead, data is accessed in groups of 1 word (4 bytes) for
-32-bit systems and 2 words for 64-bit systems.

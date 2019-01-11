@@ -1,1 +1,0 @@
-The POSIX standard defines a block size of 512 bytes. However, this size is harder to read, so by default, the df and du output in most Linux distributions is in 1024-byte blocks.

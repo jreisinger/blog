@@ -1,2 +1,0 @@
-A communications protocol that treats each request as an independent
-transaction that is unrelated to any previous request (ex. HTTP).

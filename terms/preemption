@@ -1,6 +1,0 @@
-The interruption of a computer process without its cooperation in order to
-perform another task.
-
-Preemptive OS means that the rules governing which
-processes receive use of the CPU and for how long are determined by the kernel
-process scheduler (rather than by the processes themselves).

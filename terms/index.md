@@ -1,3 +1,0 @@
-In a typical database, it's an internal structure that is used to *increase the speed of data retrieval*. It's a copy of selected data that can be searched very efficiently, which might also include a file-level disk block number or even a direct connection to the entire set of data it was copied from.
-
-Indexing is a way of sorting a number of records on multiple fields. Creating an index on a field in a table creates another data structure which holds the field value, and pointer to the record it relates to. This index structure is then sorted, allowing Binary Searches to be performed on it. -- https://stackoverflow.com/questions/1108/how-does-database-indexing-work

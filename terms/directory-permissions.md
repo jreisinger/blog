@@ -1,1 +1,0 @@
-You can list the contents of a directory if it's readable (`r`), but you can only access a file in a directory if the directory is executable (`x`). Typical (absolute) permission modes for directories: `755`, `700`, `711`.

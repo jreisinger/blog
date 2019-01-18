@@ -119,19 +119,23 @@ dig (preferred)
 Howtos
 ------
 
-Determine DNS server version:
+Find out the names of the authoritative nameservers for a domain
 
-1. Find out the name of the nameserver for the domain
-
-        dig ist.ac.at ns
+```
+dig ist.ac.at ns
+```
  
-2. Query the the version (can be concealed in some cases)
+Find out the version of a bind nameserver (can be concealed in some cases)
 
-        dig @ns1.ist.ac.at version.bind txt chaos
+```
+dig @ns1.ist.ac.at version.bind txt chaos
+```
 
-Finding master server
+Find out a master namesserver
 
-    dig SOA <domain-name>
+```
+dig <domain-name> soa
+```
 
 Checking for open resolvers: http://dns.measurement-factory.com/tools/ => open resolver test
 

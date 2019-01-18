@@ -131,7 +131,7 @@ Find out the version of a bind nameserver (can be concealed in some cases)
 dig @ns1.ist.ac.at version.bind txt chaos
 ```
 
-Find out a master namesserver
+Find out a master nameserver
 
 ```
 dig <domain-name> soa

@@ -2,7 +2,7 @@ Load balancer types
 -------------------
 
 DNS Round Robin
-* rarely used
+* simple to set up
 * difficult to control, not very responsive
 * if one replica dies, the clients will try to access it until the cache
     expires
@@ -16,7 +16,7 @@ L3 and L4
 * L4 - track also source and destination port (finer granularity)
 
 L7
-* can examine what's inside the HTTP protocol (cookies, headers, URLs, ...) and
+* can examine what's inside the HTTP protocol - like headers (cookies), URLs - and
     make decisions based on that
 * `X-Forwarded-For:` - header that can be inserted by a LB containing list of IPs
 traversed before the packet got to the LB

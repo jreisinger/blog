@@ -26,3 +26,5 @@ heat resource-show <stack-id> <resource-name>   # resource details
 * feature that allows adding additional IP/MAC address pairs on a port to allow traffic that matches those specified values
 
 [Floating IP address (FIP)](https://docs.openstack.org/ocata/user-guide/cli-manage-ip-addresses.html)
+
+[Releases](https://en.wikipedia.org/wiki/OpenStack#Release_history) (Ocata, Pike, ...)

@@ -2,7 +2,9 @@
 
 [Allowed Address Pairs](https://docs.openstack.org/dragonflow/latest/specs/allowed_address_pairs.html) - feature that allows adding additional IP/MAC address pairs on a port to allow traffic that matches those specified values
 
-[Floating IP address (FIP)](https://docs.openstack.org/ocata/user-guide/cli-manage-ip-addresses.html)
+[Floating IP address (FIP)](https://docs.openstack.org/ocata/user-guide/cli-manage-ip-addresses.html) - Each instance has a private, fixed IP address and can also have a public, or floating IP address. Private IP addresses are used for communication between instances, and public addresses are used for communication with networks outside the cloud, including the Internet.
+
+Useful commands:
 
 ```
 openstack network list              # all nets

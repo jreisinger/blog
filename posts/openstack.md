@@ -20,3 +20,7 @@ heat stack-show <id>
 heat resource-list <id>                         # list stack resources
 heat resource-show <stack-id> <resource-name>   # resource details
 ```
+
+[Allowed Address Pairs](https://docs.openstack.org/dragonflow/latest/specs/allowed_address_pairs.html)
+
+* feature that allows adding additional IP/MAC address pairs on a port to allow traffic that matches those specified values

@@ -14,7 +14,7 @@ openstack network show <id>         # details
 openstack ip availability show <id> # IP addresses
 ```
 
-## Heat
+## Orchestration (Heat)
 
 ```
 heat stack-list

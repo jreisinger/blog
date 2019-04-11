@@ -23,12 +23,18 @@ heat resource-list <id>                         # list stack resources
 heat resource-show <stack-id> <resource-name>   # resource details
 ```
 
-## Varia
+## Tips and tricks
 
 [Releases](https://en.wikipedia.org/wiki/OpenStack#Release_history) (Ocata, Pike, ...)
 
-Initiliaze (env. vars):
+Initiliaze env. vars:
 
-```
+```sh
 source ~/.openrc
+```
+
+Monitor stack progress when creating/deleting/updating:
+
+```sh
+watch 'openstack stack event list <stack-name> | tail -n 30'
 ```

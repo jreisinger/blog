@@ -7,7 +7,7 @@ install packages without affecting the global system Python.
 # install the venv package
 sudo apt-get install python3-venv
 
-# create a virtual environment
+# create a virtual environment (will fail if already exists)
 python3 -m venv venv # 'venv' is a common name for a virtual environment
 ```
 

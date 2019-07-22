@@ -104,6 +104,10 @@ Testing and debugging
 Tools
 -----
 
+dig
+
+    dig [@server] [-x addr] [name] [type] [+trace]
+
 host
 
     host name|addr [server]
@@ -111,10 +115,6 @@ host
 nslookup (Cricket Liu doesn't like it :-))
 
     nslookup [name|addr] [server]
-
-dig (preferred)
-
-    dig [@server] [-x addr] [name] [type] [+trace]
 
 Howtos
 ------

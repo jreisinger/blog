@@ -124,18 +124,19 @@ Find out the names of the authoritative nameservers for a domain
 ```
 dig ist.ac.at ns
 ```
- 
+
+Find out a master nameserver
+
+```
+dig ist.ac.at soa
+```
+
 Find out the version of a bind nameserver (can be concealed in some cases)
 
 ```
 dig @ns1.ist.ac.at version.bind txt chaos
 ```
 
-Find out a master nameserver
-
-```
-dig <domain-name> soa
-```
 
 Checking for open resolvers: http://dns.measurement-factory.com/tools/ => open resolver test
 

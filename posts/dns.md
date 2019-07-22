@@ -119,13 +119,13 @@ nslookup (Cricket Liu doesn't like it :-))
 Howtos
 ------
 
-Find out the names of the authoritative nameservers for a domain
+Find out the names of authoritative nameservers for a domain
 
 ```
 dig ist.ac.at ns
 ```
 
-Find out a master nameserver
+Find out master nameserver
 
 ```
 dig ist.ac.at soa
@@ -136,7 +136,6 @@ Find out the version of a bind nameserver (can be concealed in some cases)
 ```
 dig @ns1.ist.ac.at version.bind txt chaos
 ```
-
 
 Checking for open resolvers: http://dns.measurement-factory.com/tools/ => open resolver test
 

@@ -21,15 +21,13 @@ sum(node_filesystem_size_bytes) without(device, fstype, mountpoint)
 ### Counter
 
 * tracks the number or size of events (total since start)
-* use `rate` function for counters as they're always increasing
+* use `rate` function as counters are always increasing
 
-How many samples Prometheus is ingesting per-second averaged over one minute:
+How many samples Prometheus is ingesting per-second *averaged* over one minute:
 
 ```
 rate(prometheus_tsdb_head_samples_appended_total[1m])
 ```
-
-* an average over the last 1 minute
 
 The output of `rate` is a gauge, so e.g. to get total bytes received per machine per second:
 
@@ -39,7 +37,7 @@ sum(rate(node_network_receive_bytes_total[5m])) without(device)
 
 ## Selectors
 
-* you almost always will want to limit by job label
+You almost always will want to limit by job label, e.g.:
 
 ```
 process_resident_memory_bytes{job="kubelet"}

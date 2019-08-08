@@ -8,7 +8,7 @@
 ### Gauge
 
 * snapshot of state
-* we usually agregates it with sum, avg, min or max
+* we usually agregate it with sum, avg, min or max
 
 Total FS size on each machine (node_filesystem_size_bytes metric comes from Node exporter):
 
@@ -20,7 +20,7 @@ sum(node_filesystem_size_bytes) without(device, fstype, mountpoint)
 
 ### Counter
 
-Use `rate` function for counters as they're always increasing.
+* use `rate` function for counters as they're always increasing
 
 How many samples Prometheus is ingesting per-second averaged over one minute:
 ```

@@ -37,6 +37,25 @@ The output of `rate` is a gauge, so e.g. to get total bytes received per machine
 sum(rate(node_network_receive_bytes_total[5m])) without(device)
 ```
 
+## Selectors
+
+* you almost always will want to limit by job label
+
+```
+process_resident_memory_bytes{job="kubelet"}
+```
+
+* instant vector (one dimensional list) selector
+
+### Matachers
+
+```
+=  --> job="node"
+!=
+=~ --> jon=~"n.*"  # fully anchored, RE2
+!~
+```
+
 # Sources
 
 * Prometheus: Up & Running (2018)

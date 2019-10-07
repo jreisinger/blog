@@ -54,6 +54,27 @@ process_resident_memory_bytes{job="kubelet"}
 !~
 ```
 
+# Labels
+
+* key-value pairs associated with time series
+* together with with metric name uniquely idendify metrics (time series)
+
+There are two types of labels although you don't see any difference among them
+in PromQL:
+
+1) Instrumentation labels
+
+* things that are know inside you application
+
+2) Target labels
+
+* identify a specific monitoring target (a target that monitoring scrapes)
+* relate more to your architecture
+* attached by Prometheus as part of process of scraping metrics
+* come from service discovery (metadata) and relabelling
+* service discovery metadata are converted to target labels
+* default ones: `instance`, `job`
+
 # Sources
 
 * Prometheus: Up & Running (2018)

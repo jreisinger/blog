@@ -39,3 +39,5 @@ $ cat .gitignore
 venv
 __pycache__
 ```
+
+See also https://gist.github.com/jreisinger/e98fd0e1a4e77efeb90940ef8a5ca226
